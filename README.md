@@ -14,7 +14,7 @@ MapCat provides a couple of commercial services built on the OpenStreetMap datab
 
 * Mac OS X, Windows, or Linux
 * Yarn package + Node.js v6.5 or newer
-* Text editor or IDE pre-configured with React/JSX/Flow/ESlint (learn more)
+* Text editor or IDE pre-configured with React/JSX/Flow/ESlint
 
 ## Get the source
 

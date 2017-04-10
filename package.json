@@ -18,7 +18,7 @@
     "sample"
   ],
   "author": "GLI Solutions Ltd.",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "leaflet": "^1.0.3",
     "react": "^15.4.2",
