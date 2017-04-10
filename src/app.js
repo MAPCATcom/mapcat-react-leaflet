@@ -3,7 +3,6 @@ import styles from './app.css';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 
 
-//const position = [51.505, -0.09];
 const position = [47.1510, 19.0496];
 
 export default class App extends React.Component {
@@ -13,7 +12,7 @@ export default class App extends React.Component {
         <Map center={position} zoom={13}>
           <TileLayer
             url='https://terkepem.hu/tile/{z}/{x}/{y}.png'
-            attribution='&copy; <a href="http://mapcat.com">MapCat</a> | &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            attribution='Imagery &copy; 2017 <a href="http://mapcat.com">MapCat</a>, Map data &copy; <a href="http://osm.org/copyright">OpenStreetMap</a contributors'
           />
           <Marker position={position}>
             <Popup>
@@ -25,6 +24,3 @@ export default class App extends React.Component {
     )
   }
 }
-
-//            url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
-//            url='https://terkepem.hu/tile/{z}/{x}/{y}.png'

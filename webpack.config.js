@@ -8,7 +8,7 @@ var DashboardPlugin = require('webpack-dashboard/plugin');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const HOST = process.env.HOST || "127.0.0.1";
-const PORT = process.env.PORT || "8888";
+const PORT = process.env.PORT || "3000";
 
 loaders.push({
   test: /\.css$/,
@@ -78,6 +78,7 @@ module.exports = {
       template: './static/index.html',
       files: {
         css: ['style.css'],
+        favicon: 'static/favicon.ico',
         js: ["bundle.js"],
       }
     }),
