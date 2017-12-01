@@ -22,7 +22,7 @@ For a quick start you can clone this repository:
 
 ```shell
 $ git clone -o mapcat-react-leaflet -b master --single-branch \
-      https://github.com/MapCat-com/mapcat-react-leaflet.git MapCat-Sample
+      https://github.com/MAPCATcom/mapcat-react-leaflet.git MapCat-Sample
 $ cd MapCat-Sample
 ```
 
@@ -36,9 +36,7 @@ This will install both run-time project dependencies and developer tools listed 
 
 ## Run in development mode
 
-```shell
-$ yarn start
-```
+```$ yarn start``` or ```$ npm start```
 
 This command will start a webpack development server listening to requests at: ```http://localhost:3000/```
 
@@ -46,15 +44,11 @@ This command will start a webpack development server listening to requests at: `
 
 For a production build run:
 
-```shell
-$ yarn run build
-```
+```$ yarn run build``` or ```$ npm run build```
 
-The compiled, optimized static files will be put into the `build` folder.
+The compiled, optimized static files will be put into the `public` folder.
 
 For ESLint run:
 
-```shell
-$ yarn run lint
-```
+```$ yarn run lint``` or ```$ npm run lint```
 
