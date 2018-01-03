@@ -19,7 +19,7 @@ export default class App extends React.Component {
 
   getViewUrl() {
     return new Promise((resolve, reject) => {
-      mapviewinit.initRasterView('NrP1WQLjuHTU220tHAbs3fzRdIg0nmhjMeL2pvwj', null, null, (error, response) => {
+      mapviewinit.initRasterView('jM9oGlsfWxOOYYF0kvuq2UbYl3XrVuUzJmwfnB6M', null, null, (error, response) => {
         if (error) {
           reject(error);
         } else {
