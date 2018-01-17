@@ -20,7 +20,7 @@
   "author": "GLI Solutions Ltd.",
   "license": "MIT",
   "dependencies": {
-    "@mapcat/mapview-init": "^0.0.4",
+    "@mapcat/mapview-init": "^0.0.5",
     "leaflet": "^1.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
