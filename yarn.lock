@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@mapcat/mapview-init@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@mapcat/mapview-init/-/mapview-init-0.0.5.tgz#1ce368a955be0c72b27cbea3a412a87138a12228"
+"@mapcat/mapview-init@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@mapcat/mapview-init/-/mapview-init-0.0.7.tgz#04c33910d79041f4771160adb9955deb6f46e380"
   dependencies:
     browserify "^14.5.0"
     uglify-js "^2.6.0"
